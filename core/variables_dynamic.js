@@ -37,13 +37,13 @@ goog.require('goog.string');
 
 
 Blockly.VariablesDynamic.onCreateVariableButtonClick_String = function(button) {
-  Blockly.Variables.createVariableButtonHandler(button.getTargetWorkspace(), null, 'String');
+  Blockly.Variables.createVariableButtonHandler(button.getTargetWorkspace(), null, 'String', 'String');
 };
 Blockly.VariablesDynamic.onCreateVariableButtonClick_Number = function(button) {
-  Blockly.Variables.createVariableButtonHandler(button.getTargetWorkspace(), null, 'Number');
+  Blockly.Variables.createVariableButtonHandler(button.getTargetWorkspace(), null, 'Number', 'double');
 };
 Blockly.VariablesDynamic.onCreateVariableButtonClick_Colour = function(button) {
-  Blockly.Variables.createVariableButtonHandler(button.getTargetWorkspace(), null, 'Colour');
+  Blockly.Variables.createVariableButtonHandler(button.getTargetWorkspace(), null, 'Colour', 'String');
 };
 /**
  * Construct the elements (blocks and button) required by the flyout for the
